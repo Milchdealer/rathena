@@ -19594,6 +19594,9 @@ bool skill_produce_mix(struct map_session_data *sd, uint16 skill_id, unsigned sh
 				break;
 			case ASC_CDP:
 				make_per = (2000 + 40*status->dex + 20*status->luk);
+				// [custom] Make prepare potion success rate also affect CDP
+				if (battle_config.pp_rate != 100)
+					make_per = make_per * battle_config.pp_rate / 100;
 				break;
 			case AL_HOLYWATER:
 			case AB_ANCILLA:

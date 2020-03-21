@@ -1,0 +1,235 @@
+
+// Show rAthena version to users when the login?
+display_version: no
+
+// Item drop rates (Note 2)
+
+// The rate the common items are dropped (Items that are in the ETC tab, besides card)
+item_rate_common: 5000
+item_rate_common_boss: 5000
+item_rate_common_mvp: 5000
+item_drop_common_min: 1
+item_drop_common_max: 10000
+
+// The rate healing items are dropped (items that restore HP or SP)
+item_rate_heal: 5000
+item_rate_heal_boss: 5000
+item_rate_heal_mvp: 5000
+item_drop_heal_min: 1
+item_drop_heal_max: 10000
+
+// The rate at which usable items (in the item tab) other then healing items are dropped.
+item_rate_use: 5000
+item_rate_use_boss: 5000
+item_rate_use_mvp: 5000
+item_drop_use_min: 1
+item_drop_use_max: 10000
+
+// The rate at which equipment is dropped.
+item_rate_equip: 5000
+item_rate_equip_boss: 5000
+item_rate_equip_mvp: 5000
+item_drop_equip_min: 1
+item_drop_equip_max: 10000
+
+// The rate at which cards are dropped
+item_rate_card: 5000
+item_rate_card_boss: 5000
+item_rate_card_mvp: 2500
+item_drop_card_min: 1
+item_drop_card_max: 10000
+
+// The rate adjustment for the MVP items that the MVP gets directly in their inventory
+// Mode: 0 - official order, 1 - random order, 2 - all items
+item_rate_mvp: 5000
+item_drop_mvp_min: 1
+item_drop_mvp_max: 10000
+item_drop_mvp_mode: 0
+
+// The rate adjustment for card-granted item drops.
+item_rate_adddrop: 5000
+item_drop_add_min: 1
+item_drop_add_max: 10000
+
+// Rate adjustment for Treasure Box drops (these override all other modifiers)
+item_rate_treasure: 5000
+item_drop_treasure_min: 1
+item_drop_treasure_max: 10000
+
+// Make broadcast ** Player1 won Pupa's Pupa Card (chance 0.01%) ***
+// This can be set to any value between 0~10000.
+// Note: It also announces STEAL skill usage with rare items
+// 0 = don't show announces at all
+// 1 = show announces for 0.01% drop chance items
+// 333 = show announces for 3.33% or lower drop chance items
+// 10000 = show announces for all items
+rare_drop_announce: 25
+
+// Rate at which exp. is given. (Note 2)
+base_exp_rate: 5000
+
+// Rate at which job exp. is given. (Note 2)
+job_exp_rate: 5000
+
+// Turn this on to allow a player to level up more than once from a kill. (Note 1)
+multi_level_up: yes
+
+// Experience increase per attacker. That is, every additional attacker to the
+// monster makes it give this much more experience
+// (eg: 5 people attack with 25 here, +(25*4)% -> +100% exp)
+exp_bonus_attacker: 50
+
+// Max number of attackers at which exp bonus is capped
+// (eg: if set at 5, the max bonus is 4*bonus-per-char regardless of attackers)
+exp_bonus_max_attacker: 12
+
+// MVP bonus exp rate. (Note 2)
+mvp_exp_rate: 5000
+
+// Rate of base/job exp given by NPCs. (Note 2)
+quest_exp_rate: 5000
+
+// Atcommand suggestions (Note 1)
+// If one type incomplete atcommand, it will suggest the complete ones.
+feature.atcommand_suggestions: on
+
+// In which direction should respawned autotraders look?
+// Possible values are from 0-7
+// Default: 4(South)
+// -1 = Last player's direction
+feature.autotrade_direction: -1
+
+// Change player's head direction?
+// -1 = Last condition
+//  0 = Forward
+//  1 = Right
+//  2 = Left
+feature.autotrade_head_direction: -1
+
+// The symbol that will be used to recognize commands.
+// You can set any one character except:
+// - control-characters (0x00-0x1f),
+// - '%' (party chat symbol)
+// - '$' (guild chat symbol)
+// - '/' (client commands symbol)
+// atcommand_symbol represents @commands used locally.
+// charcommand_symbol represents #commands used on other players.
+atcommand_symbol: !
+charcommand_symbol: @
+
+// The rate a homunculus will get friendly by feeding it. (Note 2)
+homunculus_friendly_rate: 500
+
+// Can you name a homunculus more then once? (Note 1)
+hom_rename: yes
+
+// Forging success rate. (Note 2)
+weapon_produce_rate: 200
+
+// Prepare Potion success rate. (Note 2)
+potion_produce_rate: 200
+
+// How much time must pass between item uses?
+// Only affects the delay between using items, prevents healing item abuse. Recommended ~500 ms
+// On officials this is 0, but it's set to 100ms as a measure against bots/macros.
+item_use_interval: 0
+
+// Enable autospell card effects to stack?
+// NOTE: Different cards that grant the same skill will both 
+// always work independently of each other regardless of setting.
+autospell_stacking: yes
+
+// Delay between using @duel in minutes
+duel_time_interval: 0
+
+// Restrict duel usage to same map
+duel_only_on_same_map: yes
+
+// Whether or not mail box status is displayed upon login.
+// Default: 0
+// 0 = No
+// 1 = Yes
+// 2 = Yes, when there are unread mails
+mail_show_status: 2
+
+// Give additional experience bonus per party-member involved on even-share parties (excluding yourself)?
+// ex. If set to 10, an even-share party of 5 people will receive +40% exp (4 members * 10% exp):
+//     140% party experience in total, so each member receives 140%/5 = 28% exp (instead of 20%).
+party_even_share_bonus: 25
+
+// Rate for catching pets (Note 2)
+pet_catch_rate: 200
+
+// Can you name a pet more then once? (Note 1)
+pet_rename: yes
+
+// The rate a pet will get friendly by feeding it. (Note 2)
+pet_friendly_rate: 500
+
+// When the master attacks a monster, whether or not the pet will also attack. (Note 1)
+pet_attack_support: yes
+
+// When the master receives damage from the monster, whether or not the pet attacks back. (Note 1)
+pet_damage_support: yes
+
+// Whether or not the pet's will use skills. (Note 1)
+// Note: Offensive pet skills need at least pet_attack_support or 
+// pet_damage_support to work (they trigger while the pet is attacking).
+pet_status_support: yes
+
+// Does the pets owner receive exp from the pets damage?
+pet_attack_exp_to_master: yes
+
+// The rate exp. is gained from the pet attacking monsters
+pet_attack_exp_rate: 5000
+
+// Will does petskillattack2 fixed damage ignore plant infnite defense? (Note 1)
+pet_ignore_infinite_def: no
+
+// Maximum atk speed. (Default 190, Highest allowed 199)
+max_aspd: 195
+
+// Same as max_aspd, but for 3rd classes. (Default 193, Highest allowed 199)
+max_third_aspd: 195
+
+// Maximum params/stats for each class. (str, agi, vit, int, dex, and luk)
+// 'max_parameter' for novice, non-trans, non-baby, and non-3rd classes
+// 'max_trans_parameter' for trans classes (non-3rd trans classes)
+// 'max_third_parameter' for 3rd classes (regular/non-trans) except baby 3rd clasess
+// 'max_third_trans_parameter' for 3rd trans classes
+// 'max_baby_parameter' for baby classes except baby 3rd classes
+// 'max_baby_third_parameter' for baby 3rd classes only
+// 'max_extended_parameter' for extended 2nd class (Kagerou/Oboro and Rebellion)
+// For mor specific/advanced option, see 'db/[pre-]re/job_params_db.txt'
+max_parameter: 99
+max_trans_parameter: 99
+max_third_parameter: 130
+max_third_trans_parameter: 130
+max_baby_parameter: 99
+max_baby_third_parameter: 130
+max_extended_parameter: 130
+max_summoner_parameter: 120
+
+// When should the server prevent a player from logging out? Have no effect if prevent_logout is disabled. (Note 3)
+// Official servers prevent players from logging out after attacking, casting skills, and taking damage.
+// 0 = Players can always logout
+// 1 = Prevent logout on login
+// 2 = Prevent logout after attacking
+// 4 = Prevent logout after casting skill
+// 8 = Prevent logout after being hit
+prevent_logout_trigger: 10
+
+// Display the drained hp/sp values from normal attacks? (Ie: Hunter Fly card)
+show_hp_sp_drain: yes
+
+// Do mounted (on Peco) characters increase their size?
+// 0 = no
+// 1 = only Normal Classes on Peco have Big Size
+// 2 = only Baby Classes on Peco have Medium Size
+// 3 = both Normal Classes on Peco have Big Size
+//	and Baby Classes on Peco have Medium Size
+character_size: 3
+
+// Allows players to skip menu when casting Teleport level 1
+// Menu contains two options. "Random" and "Cancel"
+skip_teleport_lv1_menu: yes
