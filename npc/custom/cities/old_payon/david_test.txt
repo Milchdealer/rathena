@@ -1,5 +1,6 @@
 // David P Test
 //============================================================
-payo2,111,117,4	script	David Test	423,{
-	
+payo2,111,117,4	script	David Test	10153,{
+	mes "[Test]";
+	mes "Peace.";
 }
