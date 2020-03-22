@@ -1,0 +1,22 @@
+// Smith
+// Repair
+// Normal refine
+// Ticket refine
+payo2,152,68,7	script	Smith#oldpayo	813 {}
+
+// Stylist
+// - Hair Style
+// - Hair Color
+// - Cloth Color
+// - Body Style 
+payo2,162,170,5	script	Stylist#oldpayo 503 {}
+
+// Job Master
+// - Change Job
+// - Reset Stats
+// - Rest Skills
+payo2,64,158,5	script	Job Master#oldpayo 10134 {}
+
+
+// Instance Warper
+payo2,123,96,4	script	Instance Warper#oldpayo 10007 {}
