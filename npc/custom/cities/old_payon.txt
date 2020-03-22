@@ -13,6 +13,22 @@
 //= Normally he does nothing.
 //============================================================
 
+// Kafra
+//============================================================
+payo2,103,117,4	script	Kafra Employee::kaf_old_payon	423,{
+	cutin "kafra_05",2;
+	callfunc "F_KafSet";
+	mes "[Kafra Employee]";
+	mes "The Kafra Corporation";
+	mes "is always working to provide";
+	mes "you with convenient services.";
+	mes "How may I be of assistance?";
+	callfunc "F_Kafra",5,0,1,60,930;
+	savepoint "payo2",100,110,1,1;
+	callfunc "F_KafEnd",0,1,"in the city of Old Payon";
+}
+
+
 //############################################################################################################################################################
 // Warps
 //############################################################################################################################################################
