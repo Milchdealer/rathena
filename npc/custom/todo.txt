@@ -47,8 +47,8 @@ payo2,79,126,5	duplicate(eto)	Eden Teleport Officer#oldpay	729
 
 
 // Clan 
-payon,116,157,1	duplicate(Clan Helper)	Clan Helper#oldpay	703
-payon,114,165,3	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
-payon,117,165,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
-payon,120,165,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
-payon,123,165,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
+payo2,116,157,1	duplicate(Clan Helper)	Clan Helper#oldpay	703
+payo2,114,165,3	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
+payo2,117,165,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
+payo2,120,165,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
+payo2,123,165,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
