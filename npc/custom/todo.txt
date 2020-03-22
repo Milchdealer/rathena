@@ -46,8 +46,8 @@ payo2,123,96,4	script	Instance Warper#oldpayo	10007,{
 payo2,79,126,5	duplicate(eto)	Eden Teleport Officer#oldpay	729
 
 // Clans
-payo2,114,165,3	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
-payo2,116,162,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
+payo2,109,158,5	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
+payo2,107,155,5	duplicate(Devon Aire)	Devon Aire#oldpay	10059
 payo2,114,156,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
 payo2,116,153,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
 
