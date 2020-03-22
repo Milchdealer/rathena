@@ -7,7 +7,7 @@ payo2,31,111,7	script	Smith#oldpayo	813,{
 }
 
 // Old Card Lady
-payo2,36,119,3	script	Old Card Lady#oldpayo	103, {
+payo2,36,119,3	script	Old Card Lady#oldpayo	103,{
 	
 }
 
