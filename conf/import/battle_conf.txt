@@ -233,3 +233,16 @@ character_size: 3
 // Allows players to skip menu when casting Teleport level 1
 // Menu contains two options. "Random" and "Cancel"
 skip_teleport_lv1_menu: yes
+
+// Save body styles. (Note 1)
+// Note: Don't turn this on unless you know what you are doing.
+// Sprites are not released officially.
+save_body_style: yes
+
+// Level required to display an aura.
+// NOTE: This assumes that sending max_lv to the client will display the aura.
+// NOTE: aura_lv must not be less than max_lv.
+// Example: If max_lv is 99 and aura_lv is 150, characters with level 99~149
+//          will be sent as being all level 98, and only characters with level
+//          150 or more will be reported as having level 99 and show an aura.
+aura_lv: 200
