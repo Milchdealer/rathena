@@ -45,10 +45,23 @@ payo2,123,96,4	script	Instance Warper#oldpayo	10007,{
 // Eden Teleport Officer
 payo2,79,126,5	duplicate(eto)	Eden Teleport Officer#oldpay	729
 
-
-// Clan 
-payo2,116,157,1	duplicate(Clan Helper)	Clan Helper#oldpay	703
+// Clans
 payo2,114,165,3	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
 payo2,117,165,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
 payo2,120,165,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
 payo2,123,165,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
+
+// Battleground
+payo2,109,93,7	script	Battleground Commissioner#oldpayo	404,{
+	
+}
+
+// PvP
+payo2,113,93,1	script	PvP Commissioner#oldpayo	808,{
+	
+}
+
+// Mercenary
+payo2,60,121,3	script	Mercenary Master#oldpayo	119,{
+	
+}
