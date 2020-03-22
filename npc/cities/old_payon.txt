@@ -96,10 +96,10 @@ pa2_in02,82,45,0	warp	oldpay68	2,2,pay_arche,74,153
 pay_fild01,333,360,0	script	#oldpay1	45,1,1,{
 	switch (select("Old Payon:New Payon")) {
 		case 1:
-			warp "payon",122,31;
+			warp "payo2",89,29;
 			close;
 		case 2:
-			warp "payo2",89,29;
+			warp "payon",122,31;
 			close;
 	}
 }
@@ -107,10 +107,10 @@ pay_fild01,333,360,0	script	#oldpay1	45,1,1,{
 pay_arche,81,18,0	script	#oldpay2	45,1,1,{
 	switch (select("Old Payon:New Payon")) {
 		case 1:
-			warp "payon",228,326;
+			warp "payo2",175,185;
 			close;
 		case 2:
-			warp "payo2",175,185;
+			warp "payon",228,326;
 			close;
 	}
 }
@@ -118,10 +118,10 @@ pay_arche,81,18,0	script	#oldpay2	45,1,1,{
 pay_gld,374,149,0	script	#oldpay3	45,1,1,{
 	switch (select("Old Payon:New Payon")) {
 		case 1:
-			warp "payon",19,143;
+			warp "payo2",21,151;
 			close;
 		case 2:
-			warp "payo2",21,151;
+			warp "payon",19,143;
 			close;
 	}
 }
@@ -129,10 +129,10 @@ pay_gld,374,149,0	script	#oldpay3	45,1,1,{
 pay_fild08,17,75,0	script	#oldpay4	45,1,1,{
 	switch (select("Old Payon:New Payon")) {
 		case 1:
-			warp "payon",265,92;
+			warp "payo2",185,69;
 			close;
 		case 2:
-			warp "payo2",185,69;
+			warp "payon",265,92;
 			close;
 	}
 }
