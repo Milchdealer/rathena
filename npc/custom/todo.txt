@@ -51,6 +51,12 @@ payo2,107,155,5	duplicate(Devon Aire)	Devon Aire#oldpay	10059
 payo2,114,156,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
 payo2,116,153,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
 
+// Campfire
+payo2,111,153,1	script	Campfire#oldpayo	10252,{
+	
+}
+
+
 // Battleground
 payo2,109,93,7	script	BG Commissioner#oldpayo	404,{
 	
