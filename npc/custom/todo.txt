@@ -2,7 +2,12 @@
 // Repair
 // Normal refine
 // Ticket refine
-payo2,152,68,7	script	Smith#oldpayo	813,{
+payo2,31,111,7	script	Smith#oldpayo	813,{
+	
+}
+
+// Old Card Lady
+payo2,36,119,3	script	Old Card Lady#oldpayo	103, {
 	
 }
 
@@ -17,14 +22,33 @@ payo2,162,170,5	script	Stylist#oldpayo	503,{
 
 // Job Master
 // - Change Job
+// - Platinum Skills
 // - Reset Stats
 // - Rest Skills
 payo2,64,158,5	script	Job Master#oldpayo	10134,{
 	
 }
 
+// Rental NPC
+// - Rental Wolf
+// - Rental Mado Gear
+// - Rental Peco Peco
+payo2,63,154,8	script	Universal Rental#oldpayo	869,{
+	
+}
 
 // Instance Warper
 payo2,123,96,4	script	Instance Warper#oldpayo	10007,{
 	
 }
+
+// Eden Teleport Officer
+payo2,79,126,5	duplicate(eto)	Eden Teleport Officer#oldpay	729
+
+
+// Clan 
+payon,116,157,1	duplicate(Clan Helper)	Clan Helper#oldpay	703
+payon,114,165,3	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
+payon,117,165,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
+payon,120,165,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
+payon,123,165,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027

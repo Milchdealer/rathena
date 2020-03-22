@@ -312,7 +312,7 @@ OnTouch:
 		case 31: warp "umbala",94,154; end;
 		case 32: warp "malaya",234,199; end;
 		case 33: warp "verus04",115,243; end;
-		default: warp "prontera",116,72; end;
+		default: warp "payo2",100,109; end;
 	}
 	end;
 }
