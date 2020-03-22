@@ -3,4 +3,8 @@
 payo2,111,117,4	script	David Test	10153,{
 	mes "[Test]";
 	mes "Peace.";
+	next;
+	mes "[Test]";
+	mes "Was geht?";
+	close;
 }
