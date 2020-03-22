@@ -57,7 +57,7 @@ payo2,109,93,7	script	Battleground Commissioner#oldpayo	404,{
 }
 
 // PvP
-payo2,113,93,1	script	PvP Commissioner#oldpayo	808,{
+payo2,113,97,1	script	PvP Commissioner#oldpayo	808,{
 	
 }
 
