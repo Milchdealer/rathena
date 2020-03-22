@@ -47,12 +47,12 @@ payo2,79,126,5	duplicate(eto)	Eden Teleport Officer#oldpay	729
 
 // Clans
 payo2,114,165,3	duplicate(Raffam Oranpere)	Raffam Oranpere#oldpay	10058
-payo2,117,165,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
-payo2,120,165,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
-payo2,123,165,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
+payo2,116,162,3	duplicate(Devon Aire)	Devon Aire#oldpay	10059
+payo2,114,156,3	duplicate(Berman Aire)	Berman Aire#oldpay	10060
+payo2,116,153,3	duplicate(Shaam Rumi)	Shaam Rumi#oldpay	10027
 
 // Battleground
-payo2,109,93,7	script	Battleground Commissioner#oldpayo	404,{
+payo2,109,93,7	script	BG Commissioner#oldpayo	404,{
 	
 }
 
